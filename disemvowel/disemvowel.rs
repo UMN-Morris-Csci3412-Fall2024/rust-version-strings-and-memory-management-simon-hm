@@ -2,7 +2,7 @@
 
 pub fn disemvowel(s: &str) -> String {
     s.chars()
-        .filter(|c| !"OIEUAoieua".contains(*c))
+        .filter(|c| !"aeiouAEIOU".contains(*c))
         .collect()
 }
 
