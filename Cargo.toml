@@ -11,7 +11,7 @@ tempfile = "3.1.0"
 assert_cmd = "0.10"
 predicates = "1"
 
-[[lib]]
+[lib]
 name = "disemvowel"
 path = "disemvowel/disemvowel.rs"
 
