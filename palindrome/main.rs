@@ -24,6 +24,7 @@ fn main() {
             break;
         }
 
+
         if let Some('\n') = buffer.chars().last() {
             buffer.pop();
         }
