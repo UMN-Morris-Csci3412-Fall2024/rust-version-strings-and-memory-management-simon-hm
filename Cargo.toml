@@ -10,3 +10,15 @@ edition = "2018"
 tempfile = "3.1.0"
 assert_cmd = "0.10"
 predicates = "1"
+
+[[bin]]
+name = "disemvowel-in-rust"
+path = "disemvowel/disemvowel.rs"
+
+[[bin]]
+name = "creating_a_reference_cycle"
+path = "Creating_a_Reference_Cycle/creating_a_reference_cycle.rs"
+
+[[bin]]
+name = "palindrome"
+path = "palindrome/main.rs"
