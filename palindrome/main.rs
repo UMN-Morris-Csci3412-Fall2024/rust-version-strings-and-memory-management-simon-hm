@@ -24,7 +24,7 @@ fn main() {
             break;
         }
 
-        // Remove the newline character
+
         if let Some('\n') = buffer.chars().last() {
             buffer.pop();
         }

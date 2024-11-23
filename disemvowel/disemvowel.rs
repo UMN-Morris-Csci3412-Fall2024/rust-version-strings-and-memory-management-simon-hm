@@ -1,8 +1,7 @@
-// disemvowel.rs
 
 pub fn disemvowel(s: &str) -> String {
     s.chars()
-        .filter(|c| !"aeiouAEIOU".contains(*c))
+        .filter(|c| !"AIEOUaeiou".contains(*c))
         .collect()
 }
 
